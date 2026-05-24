@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../Style/estilo.css">
     <title>Mwangolé Car</title>
 </head>
@@ -10,21 +10,68 @@
     <header class="navbar">
        <h1 class="title1"><span>E</span>Motores</h1>
        <nav class="bar_nav">
-        <a href="#">Início</a>
-        <a href="#">carros</a>
-        <a href="#">Sobre</a>
-        <a href="#">contactos</a>
+        <a href="#inicio">Início</a>
+        <a href="#carros">Carros</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contactos">Contactos</a>
         <img class="icone-carrinho" src="../acess/carrinho.svg" alt="carrinho">
         <img class="icone-menu" src="../acess/menu.svg" alt="Menu">
     </nav>
     </header>
-    <div class="contain" >
-        <div class="container">
-            <h2 class="frase">Encontre o carro dos teus sonhos</h2>
-            <p>Os melhores modelos com os melhores preços.</p>
-        </div>
-        <img class="car" src="../acess/car_2_1491x623.png" alt="carro">
-    </div>
+    <main>
+        <section id="inicio">
+            <div class="contain">
+                <div class="container">
+                    <h2 class="frase">Encontre o carro dos teus sonhos</h2>
+                    <p>Os melhores modelos com os melhores preços.</p>
+                </div>
+                <img class="car" src="../acess/car_2_1491x623.png" alt="carro">
+            </div>
+        </section>
+
+        <section id="carros">
+            <div class="section-head">
+                <h2>Carros</h2>
+                <p>Explore os modelos mais recentes e encontre o carro ideal para o seu estilo.</p>
+            </div>
+            <div class="carros-grid">
+                <article class="carro-card">
+                    <img class="carro-media" src="../acess/car_2_1491x623.png" alt="Carro esportivo prata">
+                    <div class="carro-info">
+                        <h3 class="carro-title">Sport LX</h3>
+                        <p class="carro-meta">Motor 2.0 • Automatico • 2024</p>
+                        <span class="carro-preco">Desde 25.000.000 Kz</span>
+                    </div>
+                </article>
+                <article class="carro-card">
+                    <img class="carro-media" src="../acess/car_2_1491x623.png" alt="SUV premium grafite">
+                    <div class="carro-info">
+                        <h3 class="carro-title">Urban X</h3>
+                        <p class="carro-meta">Motor 1.6 • Automatico • 2023</p>
+                        <span class="carro-preco">Desde 19.500.000 Kz</span>
+                    </div>
+                </article>
+                <article class="carro-card">
+                    <img class="carro-media" src="../acess/car_2_1491x623.png" alt="Sedan executivo preto">
+                    <div class="carro-info">
+                        <h3 class="carro-title">Elegance</h3>
+                        <p class="carro-meta">Motor 1.8 • Manual • 2022</p>
+                        <span class="carro-preco">Desde 16.800.000 Kz</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="sobre">
+            <h2>Sobre</h2>
+            <p>Somos apaixonados por carros e selecionamos ofertas com a melhor relacao custo-beneficio.</p>
+        </section>
+
+        <section id="contactos">
+            <h2>Contactos</h2>
+            <p>Fale connosco para tirar duvidas, marcar visitas e obter mais informacoes.</p>
+        </section>
+    </main>
 
 
 </body>

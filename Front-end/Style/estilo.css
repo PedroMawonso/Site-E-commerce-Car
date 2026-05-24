@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.title1{
+    color: aliceblue;
+    letter-spacing: 4px;
+    padding: 0 50px;
+}
+
+span{
+    color:chocolate;
+}
+
+.navbar{
+    display: flex; 
+    padding: 20px 50px;
+    align-items: center;
+    background: #000;
+    justify-content: space-between;
+}
+
+.bar_nav{
+    display: flex;
+    gap: 20px;
+}
+
+nav a:hover{
+    color: chocolate;
+}
+
+nav a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 900;
+    letter-spacing: 2px;
+    padding: 0, 0, 20px, 0;
+}
+
+img{
+
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.conteiner{
+    display: flex;
+    position: relative;
+}
+
+.frase{
+    color:aliceblue;
+    margin-left: 100px;
+    position: absolute;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+p{
+    color: aliceblue;
+    margin-top: 150px;
+    margin-left: 100px;
+    position: absolute;
+    letter-spacing: 5px;
+    font-family: 'Montserrat', Georgia, serif;
+    font-size: 48px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+
+}
